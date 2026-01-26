@@ -1,0 +1,11 @@
+expr
+  (LAMBDA: \)
+  (VAR: x)
+  (POINT: .)
+  expr
+    (LPAREN: ()
+    expr
+      (VAR: x)
+      (OP: +)
+      (NUMBER: 2)
+    (RPAREN: ))

@@ -1,0 +1,10 @@
+assign: int_tid int_eqsum
+int_tid: type id
+int_eqsum: equal sum
+sum: int_numplus number
+int_numplus: number plus
+type: TYPE
+id: ID
+equal: EQUAL
+number: NUMBER
+plus: PLUS

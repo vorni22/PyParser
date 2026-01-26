@@ -1,0 +1,10 @@
+expr
+  (VAR: a)
+  (OP: +)
+  expr
+    (LPAREN: ()
+    expr
+      (VAR: b)
+      (OP: *)
+      (VAR: c)
+    (RPAREN: ))

@@ -1,0 +1,69 @@
+expr
+  (LAMBDA: \)
+  (VAR: x)
+  (POINT: .)
+  expr
+    (LAMBDA: \)
+    (VAR: y)
+    (POINT: .)
+    expr
+      (LAMBDA: \)
+      (VAR: z)
+      (POINT: .)
+      expr
+        (LAMBDA: \)
+        (VAR: v)
+        (POINT: .)
+        expr
+          (LPAREN: ()
+          expr
+            (VAR: x)
+            (OP: +)
+            expr
+              (LPAREN: ()
+              expr
+                (VAR: z)
+                (OP: *)
+                expr
+                  (LAMBDA: \)
+                  (VAR: x)
+                  (POINT: .)
+                  expr
+                    (LPAREN: ()
+                    expr
+                      (VAR: x)
+                      (OP: *)
+                      expr
+                        (LAMBDA: \)
+                        (VAR: y)
+                        (POINT: .)
+                        expr
+                          (LPAREN: ()
+                          expr
+                            (VAR: y)
+                            (OP: -)
+                            expr
+                              (LAMBDA: \)
+                              (VAR: z)
+                              (POINT: .)
+                              expr
+                                (LPAREN: ()
+                                expr
+                                  (VAR: z)
+                                  (OP: *)
+                                  expr
+                                    (LAMBDA: \)
+                                    (VAR: v)
+                                    (POINT: .)
+                                    expr
+                                      (LPAREN: ()
+                                      expr
+                                        (VAR: v)
+                                        (OP: +)
+                                        (VAR: x)
+                                      (RPAREN: ))
+                                (RPAREN: ))
+                          (RPAREN: ))
+                    (RPAREN: ))
+              (RPAREN: ))
+          (RPAREN: ))

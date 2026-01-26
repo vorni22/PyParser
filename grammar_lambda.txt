@@ -1,0 +1,15 @@
+expr: int_2 expr
+expr: int_3 int_rparen
+expr: int_4 expr
+expr: VAR
+expr: NUMBER
+int_1: int_lambda int_var
+int_2: int_1 int_point
+int_3: int_lparen expr
+int_4: expr int_op
+int_lambda: LAMBDA
+int_var: VAR
+int_point: POINT
+int_lparen: LPAREN
+int_rparen: RPAREN
+int_op: OP

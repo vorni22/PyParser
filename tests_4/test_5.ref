@@ -1,0 +1,46 @@
+expr
+  (NUMBER: 5)
+  (OP: +)
+  expr
+    (LPAREN: ()
+    expr
+      expr
+        (LPAREN: ()
+        expr
+          (VAR: x)
+          (OP: *)
+          (NUMBER: 3)
+        (RPAREN: ))
+      (OP: *)
+      expr
+        (LPAREN: ()
+        expr
+          (VAR: y)
+          (OP: -)
+          expr
+            (LPAREN: ()
+            expr
+              expr
+                (LPAREN: ()
+                expr
+                  (VAR: z)
+                  (OP: *)
+                  (NUMBER: 2)
+                (RPAREN: ))
+              (OP: *)
+              expr
+                (LPAREN: ()
+                expr
+                  (VAR: x)
+                  (OP: +)
+                  expr
+                    (LPAREN: ()
+                    expr
+                      (VAR: y)
+                      (OP: -)
+                      (VAR: z)
+                    (RPAREN: ))
+                (RPAREN: ))
+            (RPAREN: ))
+        (RPAREN: ))
+    (RPAREN: ))

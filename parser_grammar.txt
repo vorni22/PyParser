@@ -1,0 +1,4 @@
+expr: LAMBDA VAR POINT expr
+expr: LPAREN expr RPAREN
+expr: expr OP expr
+expr: VAR|NUMBER

@@ -1,0 +1,8 @@
+assign
+  (TYPE: Int)
+  (ID: x)
+  (EQUAL: =)
+  sum
+    (NUMBER: 1)
+    (PLUS: +)
+    (NUMBER: 2)
